@@ -1,0 +1,175 @@
+body {
+    font-family: "Chewy", system-ui;
+}
+/*----------------------------------------------------*/
+/* Header */
+header {
+    background: linear-gradient(to bottom, #7264f4 ,#160455);
+    display: flex;
+    justify-content: end;
+    padding:10px 20px;
+    gap: 10px;
+}
+header h1{
+    color: #181212;
+    align-content: center;
+    font-size: 45px;
+    -webkit-text-stroke: #ffffff 1.5px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+/*----------------------------------------------------*/
+/*Container*/
+.buttons__container{
+    color: #FFFFFF;
+    background-color:#160455;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+}
+.buscador {
+    padding: 5px;
+    border-radius: 50px;
+    width: 150px;
+}
+.products__container {
+    display: flex;
+    flex-flow: column;
+}
+.boton__cargar{
+    padding: 20px;
+    font-size: 20px;
+}
+.boton__cargar:hover{
+    color: #FFFFFF;
+    background-color:#7264f477 ;
+}
+.lista__productos{
+    padding-top: 20px;
+}
+/*----------------------------------------------------*/
+/* Formulario */
+.formulario__titulo{
+    font-size: 35px;
+}
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.campo__escrita {
+    background-color: #7264f471;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 50px;
+    width: 300px;
+}
+.products__buttons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.formulario__boton{
+    background-color: #7264f4dc;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 50px;
+    width: 150px;
+}
+.botones__formulario{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*----------------------------------------------------*/
+/*Productos*/
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card__img {
+    width: 140px;
+    height: 180px;
+    
+}
+.trash__icon{
+    width: 20px;
+    cursor: pointer;
+}
+.card__container{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    gap: 30px;
+}
+.card{
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    width: 140px;
+    height: 280px;
+}
+.card-container--info{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 80px;
+}
+.card-container--info p {
+    text-align: center;
+}
+.card-container--value{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+/*----------------------------------------------------*/
+/*Pantalla de carga exitosa*/
+.exitosa__container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exitosa__img{
+    max-width: 600px;
+}
+/*----------------------------------------------------*/
+/*Footer*/
+footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: linear-gradient(to top, #7264f4 ,#160455);
+    padding: 10px;
+}
+.logo__footer{
+    display: flex;
+}
+.logo__titulo {
+    color: #000000;
+    font-size: 30px;
+    -webkit-text-stroke: #ffffff 1.5px;
+}
+.logo__chico{
+    height:30px;
+}
+/*----------------------------------------------------*/

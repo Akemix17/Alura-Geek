@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Vincular estilos CSS-->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Vincular fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <!-- Pestaña -->
+    <link rel="icon" type="image/png" href="../assets/img/fruta.png">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <img src="/assets/img/fruta.png" alt="logo" class="logo">
+        <h1>ALURA GEEK</h1>
+    </header>
+    <main>
+        <section class="buttons__container">
+            <a href="../index.html" class="boton__cargar">VOLVER</a>
+        </section>
+        <form class="container__formulario" data-formulario>
+    <h2 class="formulario__titulo">Carga un producto...</h2>
+        <div class="formulario__campo">
+            <label class="campo__etiqueta" for="nombre"></label>
+            <input name="nombre" class="campo__escrita" required
+                placeholder="Producto..." id='nombre' data-nombre/>
+        </div>
+        <div class="formulario__campo">
+            <label class="campo__etiqueta" for="precio"></label>
+            <input name="precio" class="campo__escrita" required placeholder="Precio..."
+                id='precio' data-precio/>
+        </div>
+        <div class="formulario__campo">
+            <label class="campo__etiqueta" for="imagen"></label>
+            <input name="imagen" class="campo__escrita" required placeholder="Imagen..."
+                id='imagen' data-imagen/>
+        </div>
+        <div class="botones__formulario">
+            <input class="formulario__boton" type="submit">
+            <input class="formulario__boton" type="reset" value="Limpiar">
+        </div>
+        
+</form>
+    </main>
+    <footer>
+        <div class="logo__footer">
+            <img src="/assets/img/fruta.png" alt="logo" class="logo__chico">
+            <h2 class="logo__titulo">ALURA GEEK</h2>
+        </div>
+        <p>Desarrollado por Pamela Campos</p>
+        <p>ALURA LATAM 2024</p>
+</footer>
+<script src="/js/crearProducto.js" type="module"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
