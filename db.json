@@ -73,10 +73,34 @@
       "precio": "34.000"
     },
     {
-      "id": "0ad1",
-      "imagen": "https://acdn.mitiendanube.com/stores/806/999/products/llavero-esfera-del-dragon-goku-dragon-ball-dbz-fotocaja-tienda-geek-11-9afcf337917467867015499209948378-640-0.webp",
-      "nombre": "Llavero Esfera del dragón",
-      "precio": "5.400"
+      "id": "cc6e",
+      "imagen": "https://m.media-amazon.com/images/I/81ECvC1RR8L.jpg",
+      "nombre": "Figura Mikasa",
+      "precio": "70.000"
+    },
+    {
+      "id": "ec29",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_928634-MLA51004309797_082022-O.webp",
+      "nombre": "Funko Midoriya",
+      "precio": "15.000"
+    },
+    {
+      "id": "a61b",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_800864-MLC49265230151_032022-O.webp",
+      "nombre": "Figura Nezuko Chibi",
+      "precio": "20.000"
+    },
+    {
+      "id": "edf3",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_796889-MLA54135931399_032023-O.webp",
+      "nombre": "Buzo Anya",
+      "precio": "35.000"
+    },
+    {
+      "id": "6394",
+      "imagen": "https://acdn.mitiendanube.com/stores/806/999/products/de2a26851-3971a38571ea67fa7616934210783250-1024-1024.jpg",
+      "nombre": "Remera Anime varios",
+      "precio": "32.000"
     }
   ]
 }

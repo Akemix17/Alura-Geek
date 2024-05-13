@@ -32,11 +32,6 @@ header h1{
     padding: 5px;
     height: 50px;
 }
-.buscador {
-    padding: 5px;
-    border-radius: 50px;
-    width: 150px;
-}
 .products__container {
     display: flex;
     flex-flow: column;
@@ -44,6 +39,7 @@ header h1{
 .boton__cargar{
     padding: 20px;
     font-size: 20px;
+    transition-duration: 0.5s;
 }
 .boton__cargar:hover{
     color: #FFFFFF;
@@ -139,7 +135,6 @@ h2 {
 }
 .card:hover {
     transform: scale(1.1);
-    transition-duration: 0.5s;
 }
 /*----------------------------------------------------*/
 /*Pantalla de carga exitosa*/
@@ -173,3 +168,51 @@ footer{
     height:30px;
 }
 /*----------------------------------------------------*/
+@media (min-width: 1440px) {
+/*----------------------------------------------------*/
+/* Header */
+header h1{
+    font-size: 50px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+} 
+/*----------------------------------------------------*/  
+    h2 {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+    .card {
+        width: 250px;
+        height: 400px;
+    }
+    .card__img {
+        width: 250px;
+        height: 300px;
+        }
+    .card-container--info{
+        justify-content: space-between;
+        font-size: 28px;
+        height: 80px;
+    }
+    .trash__icon{
+        width: 30px;
+    }
+/*----------------------------------------------------*/
+/*Footer*/
+footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: linear-gradient(to top, #7264f4 ,#160455);
+    padding: 10px;
+}
+.logo__titulo {
+    font-size: 35px;
+}
+.logo__chico{
+    height:60px;
+}
+
+}
