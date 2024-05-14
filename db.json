@@ -101,6 +101,18 @@
       "imagen": "https://acdn.mitiendanube.com/stores/806/999/products/de2a26851-3971a38571ea67fa7616934210783250-1024-1024.jpg",
       "nombre": "Remera Anime varios",
       "precio": "32.000"
+    },
+    {
+      "id": "c640",
+      "imagen": "https://www.ranwey.com/mods/html/fil/Model/ProductGrouper/2489/6061f8065f263-u023-f.webp",
+      "nombre": "Buzo Naruto",
+      "precio": "40.000"
+    },
+    {
+      "id": "4609",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872931-MLA68983208628_042023-O.webp",
+      "nombre": "Figura Sailor Mercury",
+      "precio": "25.000"
     }
   ]
 }
